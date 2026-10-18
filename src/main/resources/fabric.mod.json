@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "grapebread-mod",
-	"version": "${1.0.0}",
+	"version": "${version}",
 	"name": "GrapeBread Mod",
 	"description": "9个面包在工作台合成一个葡萄面包，效果极强！",
 	"authors": [

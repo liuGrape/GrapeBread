@@ -10,6 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "loadLevel")
 	private void init(CallbackInfo ci) {
-
+		// This code will run when the Minecraft server loads a level
+		System.out.println("Hello from ExampleMixin!");
 	}
 }
