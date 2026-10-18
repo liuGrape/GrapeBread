@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:bread"
+  },
+  "result": {
+    "id": "grapebread-mod:grape_bread",
+    "count": 1
+  }
+}

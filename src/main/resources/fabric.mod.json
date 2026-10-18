@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "grapebread-mod",
+	"version": "${1.0.0}",
+	"name": "GrapeBread Mod",
+	"description": "9个面包在工作台合成一个葡萄面包，效果极强！",
+	"authors": [
+		"liuGrape"
+	],
+	"contact": {
+		"homepage": "https://github.com/liuGrape",
+		"sources": "https://github.com/liuGrape"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/grapebread-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"liugrape.game.GrapeBreadMod"
+		],
+		"client": [
+			"liugrape.game.client.GrapeBreadModClient"
+		]
+	},
+	"mixins": [
+		"grapebread-mod.mixins.json",
+		{
+			"config": "grapebread-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
